@@ -767,17 +767,18 @@ textarea {
     min-height: unset;
   }
 
+  .auth-card {
+    order: 1;
+    padding: 36px 28px;
+  }
+
   .auth-showcase {
-    order: -1;
+    order: 2;
     padding: 36px 28px;
   }
 
   .auth-showcase h2 {
     font-size: 1.5rem;
-  }
-
-  .auth-card {
-    padding: 36px 28px;
   }
 }
 
