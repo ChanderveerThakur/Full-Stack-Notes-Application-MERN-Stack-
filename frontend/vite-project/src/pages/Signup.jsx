@@ -107,7 +107,7 @@ function Signup() {
                 id="fullName"
                 name="fullName"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Enter your full name"
                 value={form.fullName}
                 onChange={handleChange}
                 className={errors.fullName ? "input-error" : ""}
@@ -121,7 +121,7 @@ function Signup() {
                 id="email"
                 name="email"
                 type="email"
-                placeholder="you@example.com"
+                placeholder="Enter your email"
                 value={form.email}
                 onChange={handleChange}
                 className={errors.email ? "input-error" : ""}
